@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -11,20 +11,48 @@ body {
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
 	background: #f0f0f0;
-	color: #1a004e;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+h1 {
+	font-family: 'Orbitron', sans-serif;
+	color: #1a004e;
+}
+
+#activity {
+	color: #313131;
+	background-color: white;
+}
+
 button {
-	height: 100px;
-	width: 100px;
-	border-radius: 50%;
-	background-color: red;
-	border: 1px solid darkred;
+	height: 60px;
+	border-radius: 10px;
+	padding: 0 1em;
+	background-color: #ff6309;
+	border: #ffb109;
 	cursor: pointer;
+	font-weight: bold;
+	font-size: 1em;
+	color: rgb(245, 248, 248);
+}
+
+.fun {
+	/* CSS generated from https://uigradients.com */
+	background: #acb6e5; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#86fde8,
+		#acb6e5
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#86fde8,
+		#acb6e5
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
